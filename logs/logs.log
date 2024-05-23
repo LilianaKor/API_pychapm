@@ -1,0 +1,11 @@
+ERROR  |  2024-05_20 22:33:57  |  Expected 405 but got 201 instead  |  file: (name)s
+ERROR  |  2024-05_21 21:40:05  |  Expected 405 but got 200 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 21:41:44  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 21:57:16  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 22:24:28  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 22:32:46  |  Expected 405 but got 200 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 22:42:05  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_21 23:24:59  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_22 21:53:13  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_22 21:54:31  |  Expected 405 but got 200 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_22 21:55:45  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)

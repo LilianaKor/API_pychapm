@@ -26,4 +26,6 @@ class CreatePetShema(BaseModel):
         if v not in ["available", "pending", "sold"]:
             logger.error(f"Invalid status: {v}")
             raise ValueError(f'Invalid status: {v}. Status must be one of ["available", "pending", "sold"]')
+        return v
+
 

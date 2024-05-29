@@ -16,3 +16,11 @@ ERROR  |  2024-05_23 20:07:51  |  Expected 405 but got 201 instead  |  file: tes
 ERROR  |  2024-05_28 19:44:32  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
 ERROR  |  2024-05_28 19:45:48  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
 ERROR  |  2024-05_28 19:45:57  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_28 20:36:40  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_28 21:05:10  |  1 validation error for CreatePetShem
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<?xml version="1.0" enco...wn</type></apiResponse>', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/json_invalid  |  file: src.validator
+ERROR  |  2024-05_28 21:15:08  |  1 validation error for CreatePetShem
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<?xml version="1.0" enco...wn</type></apiResponse>', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/json_invalid  |  file: src.validator
+ERROR  |  2024-05_28 21:37:57  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)

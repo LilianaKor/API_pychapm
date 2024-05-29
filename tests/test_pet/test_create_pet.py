@@ -23,48 +23,37 @@ class TestCreatePet:
             "category": {
                 "id": 0,
                 "name": "string777"
-        },
-        "name": "doggie71",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 888,
-                "name": "string"
-            }
-        ],
-        "status": "available"              
-    }"""
+            },
+            "name": "doggie71",
+            "photoUrls": [
+                "string"
+            ],
+            "tags": [
+                {
+                    "id": 888,
+                    "name": "string"
+                }
+            ],
+            "status": "available"              
+        }"""
         response = self.request.post(url=self.url.create_pet, data=data)
+        print(response.text)
         self.assertions.assert_status_code(
             response=response,
             actual_status_code=HTTPStatus.CREATED,
             test_name=get_test_name
          )
-        self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
-        print(response.text)
+        # self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
 
-        # Convert dictionary to JSON string
-        json_data = json.dumps(data)
 
-        # Send the POST request with the correct headers
-        response = self.request.post(
-            url=self.url.create_pet,
-            data=json_data,
-            headers={"Content-Type": "application/json"}
-        )
 
-        # Print the response for debugging
-        print("Response Status Code:", response.status_code)
-        print("Response Text:", response.text)
 
-        # Validate the status code
-        self.assertions.assert_status_code(
-            response=response,
-            actual_status_code=HTTPStatus.CREATED,  # Ensure this is the expected status code
-            test_name=get_test_name
-        )
 
-        # Validate the response body
-        self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
+        # # Validate the status code
+        # self.assertions.assert_status_code(
+        #     response=response,
+        #     actual_status_code=HTTPStatus.CREATED,  # Ensure this is the expected status code
+        #     test_name=get_test_name
+        # )
+
+

@@ -3,6 +3,7 @@ from src.logger import get_logger
 
 logger = get_logger(__name__)
 
+
 class Category(BaseModel):
     id: int
     name: str
@@ -13,7 +14,7 @@ class Tag(BaseModel):
     name: str
 
 
-class CreatePetShema(BaseModel):
+class CreatePetShem(BaseModel):
     id: int
     name: str
     category: Category
@@ -27,5 +28,3 @@ class CreatePetShema(BaseModel):
             logger.error(f"Invalid status: {v}")
             raise ValueError(f'Invalid status: {v}. Status must be one of ["available", "pending", "sold"]')
         return v
-
-

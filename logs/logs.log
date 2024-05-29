@@ -13,3 +13,6 @@ ERROR  |  2024-05_23 19:47:24  |  Expected 405 but got 201 instead  |  file: tes
 ERROR  |  2024-05_23 19:48:34  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
 ERROR  |  2024-05_23 20:07:40  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
 ERROR  |  2024-05_23 20:07:51  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_28 19:44:32  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_28 19:45:48  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_28 19:45:57  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)

@@ -24,3 +24,28 @@ ERROR  |  2024-05_28 21:15:08  |  1 validation error for CreatePetShem
   Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<?xml version="1.0" enco...wn</type></apiResponse>', input_type=str]
     For further information visit https://errors.pydantic.dev/2.7/v/json_invalid  |  file: src.validator
 ERROR  |  2024-05_28 21:37:57  |  Expected 405 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_29 09:58:32  |  Expected 200 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_29 12:45:11  |  Invalid status: available1  |  file: src.shemas.create_pet_shem
+ERROR  |  2024-05_29 12:45:11  |  1 validation error for CreatePetShem
+status
+  Value error, Invalid status: available1. Status must be one of ["available", "pending", "sold"] [type=value_error, input_value='available1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/value_error  |  file: src.validator
+ERROR  |  2024-05_29 12:47:47  |  Invalid status: available1  |  file: src.shemas.create_pet_shem
+ERROR  |  2024-05_29 12:47:47  |  1 validation error for CreatePetShem
+status
+  Value error, Invalid status: available1. Status must be one of ["available", "pending", "sold"] [type=value_error, input_value='available1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/value_error  |  file: src.validator
+ERROR  |  2024-05_29 20:48:51  |  1 validation error for CreatePetShem
+status
+  Value error, Invalid status: available1. Status must be one of ["available", "pending", "sold"] [type=value_error, input_value='available1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/value_error  |  file: src.validator
+ERROR  |  2024-05_29 20:50:23  |  Expected 200 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)
+ERROR  |  2024-05_29 20:50:53  |  1 validation error for CreatePetShem
+status
+  Value error, Invalid status: available1. Status must be one of ["available", "pending", "sold"] [type=value_error, input_value='available1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/value_error  |  file: src.validator
+ERROR  |  2024-05_29 20:55:08  |  1 validation error for CreatePetShem
+status
+  Value error, Invalid status: available1. Status must be one of ["available", "pending", "sold"] [type=value_error, input_value='available1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/value_error  |  file: src.validator
+ERROR  |  2024-05_29 20:56:49  |  Expected 200 but got 201 instead  |  file: tests/test_pet/test_create_pet.py::TestCreatePet::test_create_pet (setup)

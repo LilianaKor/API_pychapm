@@ -14,3 +14,4 @@ class Validator:
                 return model(**response.json())
         except ValidationError as e:
             Validator.logger.error(e)
+            raise e

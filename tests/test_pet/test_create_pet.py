@@ -40,10 +40,10 @@ class TestCreatePet:
         print(response.text)
         self.assertions.assert_status_code(
             response=response,
-            actual_status_code=HTTPStatus.CREATED,
+            actual_status_code=HTTPStatus.OK,
             test_name=get_test_name
          )
-        # self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
+        self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
 
 
 

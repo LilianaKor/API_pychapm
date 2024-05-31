@@ -29,8 +29,6 @@ class TestCreatePet:
 
 
 
-
-
     # def test_create_pet(self, get_test_name):
     #     info = next(self.pet_generator.generate_pet())
     #     print(info)
@@ -42,7 +40,7 @@ class TestCreatePet:
         #     response=response,
         #     actual_status_code=HTTPStatus.OK,
         #     test_name=get_test_name
-        #  )
+
         # self.validator.validate_response(response=response, model=CreatePetShem.create_pet)
 
 
